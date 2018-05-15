@@ -55,6 +55,7 @@
 		DE4404DD209415A7003C460E /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4404B7209415A7003C460E /* UIView+WebCache.m */; };
 		DE4404DE209415A7003C460E /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4404B9209415A7003C460E /* UIView+WebCacheOperation.m */; };
 		DE4404E120942824003C460E /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4404E020942824003C460E /* BottomView.m */; };
+		DE47726720AACBED007743DD /* result.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE47726620AACBED007743DD /* result.gif */; };
 		DE6614DD2091A9A100959DB8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DE6614C12091A9A100959DB8 /* LICENSE */; };
 		DE6614DE2091A9A100959DB8 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6614C42091A9A100959DB8 /* MASCompositeConstraint.m */; };
 		DE6614DF2091A9A100959DB8 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6614C72091A9A100959DB8 /* MASConstraint.m */; };
@@ -165,6 +166,7 @@
 		DE4404B9209415A7003C460E /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		DE4404DF20942824003C460E /* BottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
 		DE4404E020942824003C460E /* BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BottomView.m; sourceTree = "<group>"; };
+		DE47726620AACBED007743DD /* result.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = result.gif; sourceTree = "<group>"; };
 		DE6614C12091A9A100959DB8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE6614C32091A9A100959DB8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		DE6614C42091A9A100959DB8 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -287,6 +289,7 @@
 		DE440469209411D4003C460E /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				DE47726620AACBED007743DD /* result.gif */,
 				DE44046720940BEC003C460E /* PasserbyListData.plist */,
 			);
 			path = Data;
@@ -511,6 +514,7 @@
 				DE6614DD2091A9A100959DB8 /* LICENSE in Resources */,
 				DE2D7E61208199D300884F08 /* Main.storyboard in Resources */,
 				DE4404C6209415A7003C460E /* LICENSE in Resources */,
+				DE47726720AACBED007743DD /* result.gif in Resources */,
 				DE4404C5209415A7003C460E /* README.md in Resources */,
 				DE44046820940BEC003C460E /* PasserbyListData.plist in Resources */,
 			);

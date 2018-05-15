@@ -77,15 +77,17 @@
         
         _detailButton = [UIButton new];
         
-        _detailButton.backgroundColor = self.contentLabel.backgroundColor;
+        _detailButton.backgroundColor = [UIColor whiteColor];
                 
-        [_detailButton setTitle:@"..更多" forState:UIControlStateNormal];
+        [_detailButton setTitle:@"更多" forState:UIControlStateNormal];
         
         [_detailButton setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
         
         _detailButton.titleLabel.font = kFont(15);
         
-        [_detailButton setContentHuggingPriority:751 forAxis:UILayoutConstraintAxisHorizontal];
+        [_detailButton addTarget:self action:@selector(detailButtonClick) forControlEvents:UIControlEventTouchUpInside];
+        
+        [_detailButton sizeToFit];
         
         [self addSubview:_detailButton];
     }

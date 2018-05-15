@@ -132,7 +132,7 @@
     
     if (!_bottomView) {
         
-        _bottomView = [[BottomView alloc] initWithFrame:CGRectZero];
+        _bottomView = [[BottomView alloc] init];
         
         _bottomView.delegate = self;
         
